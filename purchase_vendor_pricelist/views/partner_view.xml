@@ -6,13 +6,13 @@
             <field name="model">res.partner</field>
             <field name="type">form</field>
             <field name="arch" type="xml">
-                <button name="toggle_active" position="after">
+               
                     <button name="act_show_supplierinfo" type="object" class="oe_stat_button" icon="fa-usd">
                         <div class="o_form_field o_stat_info">
                             <span class="o_stat_text">Liste des prix</span>
                         </div>
                     </button>
-                </button>
+            
             </field>
         </record>
 
